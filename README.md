@@ -1,6 +1,6 @@
 # merisbot-detect
 Detecting meris-bot IPs in realtime. Useful for keeping HTTP RPS down.
-You should implement some rate-limiting anyways (e.g. https://www.haproxy.com/blog/four-examples-of-haproxy-rate-limiting/)
+You should nevertheless implement some rate-limiting (e.g. https://www.haproxy.com/blog/four-examples-of-haproxy-rate-limiting/).
 
 This code reads IPs from stdin and outputs only IPs that are meris bots (it checks if the IP has tcp ports 2000 and 5678 open).
 
