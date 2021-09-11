@@ -7,6 +7,8 @@ This code reads IPs from stdin and outputs only IPs that are meris bots (it chec
 Warning: this sends several SYN-packets per IP and tries establishing a full TCP handshake.
 It could be optimized for production usage by just waiting for the SYN-ACK. But it's good enough for now. :) 
 
+It works like a filtering pipe, extracting only the Meris Bot IPs. Input format is one line per IP + linebreak.
+
 ```
 INPUT (stdin)                                                          OUTPUT (stdout)
 
