@@ -8,6 +8,8 @@ Warning: this sends several SYN-packets per IP and tries establishing a full TCP
 It could be optimized for production usage by just waiting for the SYN-ACK. But it's good enough for now. :) 
 
 ```
+INPUT (stdin)                                                          OUTPUT (stdout)
+
 ┌─────────────┐              ┌─────────────┐
 │Meris Bot#1  ├────────────► │             │
 └─────────────┘              │             │
