@@ -70,7 +70,7 @@ Some very important people from radware (https://twitter.com/Radware) from Cyber
 **Q:** From Daniel Smith (https://twitter.com/hypoweb/status/1437419028142690312)
 In my opinion, what you did is a total joke. Real victims will need a preemptive solution.  Or wait, DDoS'er never comes back, right?
  
-**A:** This specifically aims to protects against repeated attacks. If Daniel wants a proactive solution he can scan the whole internet for Mikrotik devices and then block those premptively when a DDoS starts.
+**A:** This specifically aims to protect against repeated attacks. If Daniel wants a proactive solution he can scan the whole internet for Mikrotik devices and then block those premptively before a DDoS starts.
 
 
 **Q:** From Pascal Geenens (https://twitter.com/geenensp/status/1437403030568251403)
