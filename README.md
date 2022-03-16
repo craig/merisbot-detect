@@ -58,13 +58,13 @@ Some very important people from radware (https://twitter.com/Radware) from Cyber
 **Q:** From Pascal Geenens (https://twitter.com/geenensp/status/1437032163057311745)
 "I would advise against this tool. It's blocking all MikroTek routers in the world. Not every MikroTek router is an active bot. This tool will generate to many false positives. Consider taking this down, people might get in trouble because of this!"
 
-**A:** It's blocking all systems that have port 2000 and port 5678 open. That's the intended purpose. Only use when under attack. Don't run random bullshit you find on the internet you don't understand. Mikrotek has a marketshare of 0.1% - it's better to be unavailable for some people than being down for everyone (not every Mikrotek user in the world is accessing your site during the DDoS, so please factor that in when calculating things).
+**A:** It's blocking all systems that have port 2000 and port 5678 open. That's the intended purpose. Only use when under attack. Don't run random bullshit you find on the internet you don't understand. Mikrotek has a marketshare of 0.1% - it's better to be unavailable for some people than being down for everyone (not every Mikrotek user in the world is accessing your site during the DDoS, so one has to factor that in when calculating things).
 
 
 **Q:** From Daniel Smith (https://twitter.com/hypoweb/status/1437411192088055808)
 "Slippery slope to blindly block every device just because a threat exists. But then again no one in this industry wants to do any real work. Why invest time in being a professional when you can just block and censor everyone because a few bad apples exist?"
 
-**A:** I'm not sure what Daniel means, as I don't work in the Infosec industry. I would surely appreciate if someone took down meris.
+**A:** I'm not sure what Daniel means, as I don't work in the Infosec industry. I would appreciate if someone took down meris.
 
 
 **Q:** From Daniel Smith (https://twitter.com/hypoweb/status/1437419028142690312)
@@ -97,10 +97,10 @@ So you will active this one you detected your server is suffering. You did notic
 **A:** Well it is indeed true and they are right saying that. They won't be able to access the website, though - so my educated guess is, they will probably be a bit annoyed? 
 
 
-**Q:** From Pascal Geenens (again!!!) (https://twitter.com/geenensp/status/1437434501479735297)
+**Q:** From Pascal Geenens (again!!) (https://twitter.com/geenensp/status/1437434501479735297)
 "You really want to filter MikroTik, then change your program to check for response  \x01\x00\x00\x00 from port 2000 and take out port 5678 check.  Ref: https://github.com/samm-git/btest-opensource"
 
-**A:** You said "lastly" before (and some other unfriendly stuff https://twitter.com/geenensp/status/1437422071059976201). But this is not a bad idea actually! Please send a PR. :)
+**A:** I'll ignore the unfriendly stuff you said here https://twitter.com/geenensp/status/1437422071059976201 - but this is not a bad idea actually! Please send a PR. :)
 
 
 **Q:** Why is the Q&A longer than the actual code?
